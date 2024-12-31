@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useHistory } from "react-router-dom"
 import Web3 from "web3";
 import SupplyChainABI from "./artifacts/SupplyChain.json"
+import './Supply.css'
 
 function Supply() {
     const history = useHistory()
